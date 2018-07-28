@@ -1,0 +1,271 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 17 03:57:11 2018
+# Process ID: 18248
+# Current directory: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1
+# Command line: vivado -log zcu102_es2_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu102_es2_wrapper.tcl
+# Log file: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/zcu102_es2_wrapper.vds
+# Journal file: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source zcu102_es2_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/proj/xbuilds/2018.1_0405_1/installs/lin64/Vivado/2018.1/data/ip'.
+add_files: Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1688.812 ; gain = 361.465 ; free physical = 11884 ; free virtual = 74681
+Command: synth_design -top zcu102_es2_wrapper -part xczu9eg-ffvb1156-2-i-es2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg-es2'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg-es2'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18648 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1744.836 ; gain = 0.000 ; free physical = 11949 ; free virtual = 74746
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zcu102_es2_wrapper' [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/imports/hdl/zcu102_es2_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'zcu102_es2' [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/synth/zcu102_es2.v:13]
+INFO: [Synth 8-6157] synthesizing module 'zcu102_es2_zynq_ultra_ps_e_1_0' [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/.Xil/Vivado-18248-xcoengvm229206/realtime/zcu102_es2_zynq_ultra_ps_e_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'zcu102_es2_zynq_ultra_ps_e_1_0' (1#1) [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/.Xil/Vivado-18248-xcoengvm229206/realtime/zcu102_es2_zynq_ultra_ps_e_1_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_1' of module 'zcu102_es2_zynq_ultra_ps_e_1_0' requires 83 connections, but only 26 given [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/synth/zcu102_es2.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'zcu102_es2' (2#1) [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/synth/zcu102_es2.v:13]
+WARNING: [Synth 8-115] binding instance 'zcu102_es2_i' in module 'zcu102_es2_wrapper' to reference 'zcu102_es2' which has no pins
+INFO: [Synth 8-6155] done synthesizing module 'zcu102_es2_wrapper' (3#1) [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/imports/hdl/zcu102_es2_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1744.836 ; gain = 0.000 ; free physical = 11925 ; free virtual = 74722
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1744.836 ; gain = 0.000 ; free physical = 11918 ; free virtual = 74714
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1744.836 ; gain = 0.000 ; free physical = 11918 ; free virtual = 74714
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-i-es2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/ip/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0_in_context.xdc] for cell 'zcu102_es2_i/zynq_ultra_ps_e_1'
+Finished Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/ip/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0_in_context.xdc] for cell 'zcu102_es2_i/zynq_ultra_ps_e_1'
+Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/constrs_1/new/xilinx-zcu102-zu9-es2-rev1.0-2018.1.xdc]
+Finished Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/constrs_1/new/xilinx-zcu102-zu9-es2-rev1.0-2018.1.xdc]
+Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2550.012 ; gain = 0.000 ; free physical = 10512 ; free virtual = 73310
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2550.012 ; gain = 805.176 ; free physical = 10569 ; free virtual = 73366
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu9eg-ffvb1156-2-i-es2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2550.012 ; gain = 805.176 ; free physical = 10569 ; free virtual = 73366
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for zcu102_es2_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for zcu102_es2_i/zynq_ultra_ps_e_1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2550.012 ; gain = 805.176 ; free physical = 10569 ; free virtual = 73366
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-115] binding instance 'zcu102_es2_i' in module 'zcu102_es2_wrapper' to reference 'zcu102_es2' which has no pins
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2550.012 ; gain = 805.176 ; free physical = 10568 ; free virtual = 73366
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2520 (col length:168)
+BRAMs: 1824 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2550.012 ; gain = 805.176 ; free physical = 10556 ; free virtual = 73355
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'zcu102_es2_i/zynq_ultra_ps_e_1/pl_clk0' to pin 'zcu102_es2_i/zynq_ultra_ps_e_1/bbstub_pl_clk0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:50 . Memory (MB): peak = 3028.629 ; gain = 1283.793 ; free physical = 9354 ; free virtual = 72155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:50 . Memory (MB): peak = 3028.629 ; gain = 1283.793 ; free physical = 9354 ; free virtual = 72155
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:01:50 . Memory (MB): peak = 3029.129 ; gain = 1284.293 ; free physical = 9354 ; free virtual = 72155
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------+----------+
+|      |BlackBox name                  |Instances |
++------+-------------------------------+----------+
+|1     |zcu102_es2_zynq_ultra_ps_e_1_0 |         1|
++------+-------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------+------+
+|      |Cell                           |Count |
++------+-------------------------------+------+
+|1     |zcu102_es2_zynq_ultra_ps_e_1_0 |     1|
++------+-------------------------------+------+
+
+Report Instance Areas: 
++------+---------------+-----------+------+
+|      |Instance       |Module     |Cells |
++------+---------------+-----------+------+
+|1     |top            |           |   690|
+|2     |  zcu102_es2_i |zcu102_es2 |   690|
++------+---------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.133 ; gain = 1284.297 ; free physical = 9347 ; free virtual = 72148
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:01:17 . Memory (MB): peak = 3029.133 ; gain = 479.121 ; free physical = 9383 ; free virtual = 72184
+Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:01:51 . Memory (MB): peak = 3029.137 ; gain = 1284.297 ; free physical = 9392 ; free virtual = 72193
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:54 . Memory (MB): peak = 3084.172 ; gain = 1395.359 ; free physical = 9333 ; free virtual = 72134
+INFO: [Common 17-1381] The checkpoint '/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1/zcu102_es2_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zcu102_es2_wrapper_utilization_synth.rpt -pb zcu102_es2_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.33 . Memory (MB): peak = 3084.176 ; gain = 0.000 ; free physical = 9315 ; free virtual = 72116
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 17 03:59:53 2018...

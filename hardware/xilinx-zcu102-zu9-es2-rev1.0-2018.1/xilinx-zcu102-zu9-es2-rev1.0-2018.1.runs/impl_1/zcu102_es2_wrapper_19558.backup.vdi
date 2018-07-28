@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 17 03:59:56 2018
+# Process ID: 19558
+# Current directory: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1
+# Command line: vivado -log zcu102_es2_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source zcu102_es2_wrapper.tcl -notrace
+# Log file: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper.vdi
+# Journal file: /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source zcu102_es2_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/proj/xbuilds/2018.1_0405_1/installs/lin64/Vivado/2018.1/data/ip'.
+add_files: Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1689.809 ; gain = 357.961 ; free physical = 11946 ; free virtual = 74743
+Command: link_design -top zcu102_es2_wrapper -part xczu9eg-ffvb1156-2-i-es2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/ip/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0.dcp' for cell 'zcu102_es2_i/zynq_ultra_ps_e_1'
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-i-es2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/ip/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0.xdc] for cell 'zcu102_es2_i/zynq_ultra_ps_e_1/inst'
+Finished Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/sources_1/bd/zcu102_es2/ip/zcu102_es2_zynq_ultra_ps_e_1_0/zcu102_es2_zynq_ultra_ps_e_1_0.xdc] for cell 'zcu102_es2_i/zynq_ultra_ps_e_1/inst'
+Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/constrs_1/new/xilinx-zcu102-zu9-es2-rev1.0-2018.1.xdc]
+Finished Parsing XDC File [/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.srcs/constrs_1/new/xilinx-zcu102-zu9-es2-rev1.0-2018.1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:35 . Memory (MB): peak = 2493.273 ; gain = 803.465 ; free physical = 10725 ; free virtual = 73522
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg-es2'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg-es2'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2493.277 ; gain = 0.004 ; free physical = 10627 ; free virtual = 73425
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: c2fba0de
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10021 ; free virtual = 72820
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 2968fc64
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10021 ; free virtual = 72820
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 2 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: d3509dd2
+
+Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10019 ; free virtual = 72818
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 35 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: d3509dd2
+
+Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10018 ; free virtual = 72817
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: d3509dd2
+
+Time (s): cpu = 00:00:00.30 ; elapsed = 00:00:00.30 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10018 ; free virtual = 72817
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: d3509dd2
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10018 ; free virtual = 72817
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10018 ; free virtual = 72817
+Ending Logic Optimization Task | Checksum: d3509dd2
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2733.102 ; gain = 0.000 ; free physical = 10018 ; free virtual = 72817
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: e82e92e8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2733.105 ; gain = 0.004 ; free physical = 10018 ; free virtual = 72817
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2733.105 ; gain = 239.832 ; free physical = 10018 ; free virtual = 72817
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint '/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file zcu102_es2_wrapper_drc_opted.rpt -pb zcu102_es2_wrapper_drc_opted.pb -rpx zcu102_es2_wrapper_drc_opted.rpx
+Command: report_drc -file zcu102_es2_wrapper_drc_opted.rpt -pb zcu102_es2_wrapper_drc_opted.pb -rpx zcu102_es2_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg-es2'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg-es2'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2826.105 ; gain = 0.000 ; free physical = 9708 ; free virtual = 72507
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 00000000
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2826.105 ; gain = 0.000 ; free physical = 9708 ; free virtual = 72507
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2826.105 ; gain = 0.000 ; free physical = 9705 ; free virtual = 72505
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 848f7998
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:01:03 . Memory (MB): peak = 4203.438 ; gain = 1377.332 ; free physical = 7838 ; free virtual = 70786
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1839618a0
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:07 . Memory (MB): peak = 4235.449 ; gain = 1409.344 ; free physical = 7829 ; free virtual = 70835
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1839618a0
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:07 . Memory (MB): peak = 4235.449 ; gain = 1409.344 ; free physical = 7828 ; free virtual = 70834
+Phase 1 Placer Initialization | Checksum: 1839618a0
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:07 . Memory (MB): peak = 4235.449 ; gain = 1409.344 ; free physical = 7827 ; free virtual = 70833
+
+Phase 2 Final Placement Cleanup
+Phase 2 Final Placement Cleanup | Checksum: 22c25374f
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:01:09 . Memory (MB): peak = 4235.449 ; gain = 1409.344 ; free physical = 7886 ; free virtual = 70943
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: 12d1e9847
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:01:09 . Memory (MB): peak = 4235.449 ; gain = 1409.344 ; free physical = 7897 ; free virtual = 70954
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:44 ; elapsed = 00:01:11 . Memory (MB): peak = 4235.449 ; gain = 1410.348 ; free physical = 7897 ; free virtual = 70954
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.07 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7883 ; free virtual = 70944
+INFO: [Common 17-1381] The checkpoint '/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file zcu102_es2_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.51 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7753 ; free virtual = 70811
+INFO: [runtcl-4] Executing : report_utilization -file zcu102_es2_wrapper_utilization_placed.rpt -pb zcu102_es2_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7768 ; free virtual = 70826
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file zcu102_es2_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.09 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7742 ; free virtual = 70800
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg-es2'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg-es2'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 848f7998 ConstDB: 0 ShapeSum: 0 RouteDB: a88f1eaf
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 1c3255039
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:32 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7026 ; free virtual = 70093
+Post Restoration Checksum: NetGraph: ba963867 NumContArr: ea4c884 Constraints: 3415fee9 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 2.1 Create Timer | Checksum: fd50ffd4
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:34 . Memory (MB): peak = 4235.449 ; gain = 0.000 ; free physical = 7026 ; free virtual = 70093
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: fd50ffd4
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:34 . Memory (MB): peak = 4243.465 ; gain = 8.016 ; free physical = 6968 ; free virtual = 70035
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: fd50ffd4
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:34 . Memory (MB): peak = 4243.465 ; gain = 8.016 ; free physical = 6968 ; free virtual = 70035
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: ecb2c8ae
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6963 ; free virtual = 70030
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: ecb2c8ae
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6964 ; free virtual = 70030
+Phase 2 Router Initialization | Checksum: ecb2c8ae
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6962 ; free virtual = 70029
+
+Phase 3 Initial Routing
+ Number of Nodes with overlaps = 0
+Phase 3 Initial Routing | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70010
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+Phase 4.1 Global Iteration 0 | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70010
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70009
+Phase 4 Rip-up And Reroute | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70009
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+Phase 5 Delay and Skew Optimization | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+Phase 6.1 Hold Fix Iter | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+Phase 6 Post Hold Fix | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:35 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70013
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.000685604 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:36 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70010
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:36 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6943 ; free virtual = 70010
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:36 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6946 ; free virtual = 70012
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 1080df6d7
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:36 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 6949 ; free virtual = 70015
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:36 . Memory (MB): peak = 4282.793 ; gain = 47.344 ; free physical = 7022 ; free virtual = 70089
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+56 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:54 ; elapsed = 00:01:38 . Memory (MB): peak = 4282.797 ; gain = 47.348 ; free physical = 7022 ; free virtual = 70089
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.07 . Memory (MB): peak = 4282.797 ; gain = 0.000 ; free physical = 7012 ; free virtual = 70083
+INFO: [Common 17-1381] The checkpoint '/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file zcu102_es2_wrapper_drc_routed.rpt -pb zcu102_es2_wrapper_drc_routed.pb -rpx zcu102_es2_wrapper_drc_routed.rpx
+Command: report_drc -file zcu102_es2_wrapper_drc_routed.rpt -pb zcu102_es2_wrapper_drc_routed.pb -rpx zcu102_es2_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file zcu102_es2_wrapper_methodology_drc_routed.rpt -pb zcu102_es2_wrapper_methodology_drc_routed.pb -rpx zcu102_es2_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file zcu102_es2_wrapper_methodology_drc_routed.rpt -pb zcu102_es2_wrapper_methodology_drc_routed.pb -rpx zcu102_es2_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/impl_1/zcu102_es2_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file zcu102_es2_wrapper_power_routed.rpt -pb zcu102_es2_wrapper_power_summary_routed.pb -rpx zcu102_es2_wrapper_power_routed.rpx
+Command: report_power -file zcu102_es2_wrapper_power_routed.rpt -pb zcu102_es2_wrapper_power_summary_routed.pb -rpx zcu102_es2_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+68 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 4370.840 ; gain = 0.000 ; free physical = 6986 ; free virtual = 70053
+INFO: [runtcl-4] Executing : report_route_status -file zcu102_es2_wrapper_route_status.rpt -pb zcu102_es2_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file zcu102_es2_wrapper_timing_summary_routed.rpt -pb zcu102_es2_wrapper_timing_summary_routed.pb -rpx zcu102_es2_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file zcu102_es2_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file zcu102_es2_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 4370.840 ; gain = 0.000 ; free physical = 9164 ; free virtual = 72232
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file route_report_bus_skew_0.rpt -rpx route_report_bus_skew_0.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: I, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 17 04:05:23 2018...

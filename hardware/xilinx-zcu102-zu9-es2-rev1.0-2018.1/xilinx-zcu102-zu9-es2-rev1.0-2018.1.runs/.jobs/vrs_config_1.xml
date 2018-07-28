@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zcu102_es2_zynq_ultra_ps_e_1_0_synth_1" LaunchDir="/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/zcu102_es2_zynq_ultra_ps_e_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/scratch/xbrbbot/yocto/2018.1/bsps/xilinx-zcu102-zu9-es2-rev1.0-2018.1/hw_proj/xilinx-zcu102-zu9-es2-rev1.0-2018.1/xilinx-zcu102-zu9-es2-rev1.0-2018.1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="zcu102_es2_zynq_ultra_ps_e_1_0_synth_1"/>
+	</Run>
+</Runs>
+

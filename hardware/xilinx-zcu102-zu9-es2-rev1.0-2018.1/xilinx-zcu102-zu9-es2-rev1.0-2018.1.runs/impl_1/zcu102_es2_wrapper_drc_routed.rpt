@@ -1,0 +1,35 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Tue Apr 17 04:04:35 2018
+| Host         : xcoengvm229206 running 64-bit Red Hat Enterprise Linux Workstation release 7.2 (Maipo)
+| Command      : report_drc -file zcu102_es2_wrapper_drc_routed.rpt -pb zcu102_es2_wrapper_drc_routed.pb -rpx zcu102_es2_wrapper_drc_routed.rpx
+| Design       : zcu102_es2_wrapper
+| Device       : xczu9eg-ffvb1156-2-i-es2
+| Speed File   : -2
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
+
+2. REPORT DETAILS
+-----------------
+
